@@ -1,4 +1,4 @@
-# tipi.build - OpenEmbedded / Yocto Layer
+# [tipi.build](https://tipi.build) - OpenEmbedded / Yocto Layer
 As Yocto is a wonderful project to create custom linux distributions for any system architectures and particularly useful for linux embedded projects. 
 
 tipi.build can be used as a a build system within Yocto thanks to this integration. With `inherit tipi` it is possible to build any C or C++ codebase and package it as a Yocto package, by adding a recipe as shown in [recipes-examples/simple-example](./recipes-examples/simple-example/simple-example.bb) :
